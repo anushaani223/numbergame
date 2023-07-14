@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-color: red;
+    color: bisque;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4cm;
+}
+
+.button{
+    height: 60px;
+    width: 130px;
+    background-color: rgb(17, 216, 17);
+    color: rgb(45, 157, 79);
+    font-size: 24px;
+    font-weight: 800;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height: 70px;
+    width: 400px;
+    text-align: center;
+    
+}
